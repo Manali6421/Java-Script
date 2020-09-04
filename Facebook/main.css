@@ -1,0 +1,341 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	height: 100vh;
+	width: 100vw;
+	min-height: 640px;
+	min-width: 320px;
+	/* background-color: lemonchiffon; */
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	height: 82px;
+	/* overflow: hidden; */
+	background-color: #3b5998;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 185px;
+	/* position: relative; */
+}
+
+.header > abbr > img {
+	width: 170px;
+	height: 34px;
+	margin-top: 14px;
+	/* margin-left: 185px; */
+	position: relative;
+}
+
+.header > .right-side {
+	height: 80px;
+	/* background-color: rgb(145, 128, 240); */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* margin-right: 185px; */
+}
+
+.header > .right-side > .email {
+	padding-right: 20px;
+	padding-top: 0;
+}
+
+.header > .right-side > .password {
+	padding-right: 20px;
+	padding-top: 12px;
+	text-decoration: none;
+}
+
+.header > .right-side > .login > button {
+	height: 23px;
+	width: auto;
+	background-color: #4267b2;
+	border-color: rgb(29, 42, 91);
+}
+
+.header > .right-side > .email > label {
+	font-size: 13px;
+	color: #ffffff;
+	margin-bottom: 17px;
+}
+
+.header > .right-side > .password > label {
+	font-size: 13px;
+	color: #ffffff;
+	margin-top: 12px;
+}
+
+.header > .right-side > .email > input {
+	height: 23px;
+	width: 150px;
+	background: #ffffff;
+	text-decoration: none;
+	border-color: rgb(29, 42, 91);
+	border: 1px solid #ccd0d5;
+	margin-top: 7px;
+	margin-bottom: 6px;
+	border-color: rgb(29, 42, 91);
+}
+
+.header > .right-side > .password > input {
+	height: 23px;
+	width: 150px;
+	background: #ffffff;
+	text-decoration: none;
+	border: 1px solid #ccd0d5;
+	margin-top: 7px;
+	border-color: rgb(29, 42, 91);
+}
+
+.header > .right-side > .password > a {
+	text-decoration: none;
+	height: 14px;
+	color: #9cb4d8;
+	font-size: 12px;
+}
+
+.header > .right-side > button {
+	height: 23px;
+	width: 50px;
+	margin-top: 17px;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #4267b2;
+	color: #ffffff;
+	display: inline-block;
+	border-color: rgb(29, 42, 91);
+	border: 1px solid #ccd0d5;
+}
+
+.main {
+	height: 85vh;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	color: #1c1e21;
+	direction: ltr;
+	line-height: 1.34;
+	unicode-bidi: embed;
+	background: #ffffff;
+	background-image: initial;
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	/* background-color: rgb(255, 255, 255); */
+	background-color: rgb(247, 247, 247);
+	color: #1c1e21;
+}
+
+.main > .image {
+	height: 60vh;
+	width: 1000px;
+	/* background-color: yellow; */
+	margin-left: 185px;
+	margin-top: 43px;
+	/* overflow: hidden; */
+	/* display: flex;
+      flex-direction: column;
+      justify-content: flex-end; */
+}
+
+.main > .image > .image-text {
+	height: 58px;
+	width: 100%;
+	color: #0e385f;
+	font-size: 20px;
+	font-weight: bold;
+	overflow: hidden;
+	padding-right: 70px;
+}
+
+.main > .info {
+	height: 85vh;
+	width: 800px;
+	margin: 25px 165px 0px 20px;
+	/* background-color: yellow; */
+	/* overflow: hidden; */
+}
+
+.main > .info > .text {
+	padding: 0px 0px;
+}
+
+.main > .info > .text > .heading {
+	width: 312px;
+	color: #333333;
+	font-size: 36px;
+	font-weight: 600;
+	margin-top: 0;
+}
+
+.main > .info > .text > .text-info {
+	width: 312px;
+	color: #1d2129;
+	font-size: 19px;
+}
+
+.main > .info > .name > input {
+	height: 39px;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 1px solid #ccd0d5;
+	font-size: 18px;
+	padding-left: 6px;
+}
+
+.main > .info > .address > input {
+	margin-top: 10px;
+	height: 39px;
+	width: 400px;
+	border-radius: 5px;
+	border: 1px solid #ccd0d5;
+	font-size: 18px;
+	padding-left: 6px;
+}
+
+.main > .info > .password > input {
+	margin-top: 10px;
+	height: 39px;
+	width: 400px;
+	border-radius: 5px;
+	border: 1px solid #ccd0d5;
+	font-size: 18px;
+	padding-left: 6px;
+}
+
+.main > .info > .dob {
+	margin-top: 10px;
+	color: #90949c;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+select {
+	font-size: 13px;
+	height: 30px;
+	padding: 5px;
+	border: 1px solid #ccd0d5;
+	margin-top: 5px;
+}
+
+.main > .info > .gender > .text-gender {
+	margin-top: 10px;
+	color: #90949c;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.main > .info > .gender > .sex > input {
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 20px;
+	height: 23px;
+	background: #ffffff;
+}
+
+.main > .info > .info-text {
+	color: #777;
+	width: 290px;
+	font-size: 11px;
+	margin-top: 11px;
+}
+
+.main > .info > button {
+	height: 39px;
+	min-width: 194px;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 19px;
+	background: linear-gradient(#67ae55, #578843);
+	background-color: #69a74e;
+	box-shadow: inset 0 1px 1px #a4e388;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	border: 1px solid;
+	border-radius: 5px;
+	color: #ffffff;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+	font-weight: bold !important;
+	letter-spacing: normal;
+	text-rendering: optimizelegibility;
+	cursor: pointer;
+}
+
+.main > .info > .link-info {
+	color: #666666;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+@media screen and (max-width: 320px) {
+	.header {
+		height: 100vh;
+		width: 100%;
+		background-color: rgb(247, 247, 247);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.header > abbr > img {
+		margin-top: 70px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.header > .right-side {
+		height: 40vh;
+		width: 100%;
+		margin-top: 40px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.header > .right-side > .email > input {
+		height: 30px;
+		width: 270px;
+	}
+
+	.header > .right-side > .email > label {
+		font-size: 20px;
+		color: black;
+	}
+
+	.header > .right-side > .password > input {
+		height: 30px;
+		width: 270px;
+	}
+
+	.header > .right-side > .password > label {
+		font-size: 20px;
+		color: black;
+	}
+
+	.header > .right-side > button {
+		height: 40px;
+		width: 270px;
+		font-size: 30px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.main {
+		visibility: hidden;
+	}
+}
